@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+}
+.container{
+    max-width: 100%;
+   
+    padding:34px;
+   margin: auto;
+}
+
+a:link {
+    color: rgb(196, 27, 122);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+input{
+    width: 60%;
+    margin:10px;
+    padding:2px;
+}
+
+form{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.btn{
+    color:white;
+    background:purple
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
